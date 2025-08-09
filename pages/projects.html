@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../styles/reset.css">
-  <link rel="stylesheet" href="../styles/index.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/reset.css">
+  <link rel="stylesheet" href="../styles/index.css">
+  <link rel="stylesheet" href="../styles/projects.css">
   <script type="speculationrules">
     {
       "prerender": [
@@ -36,7 +37,48 @@
     </nav>
     <section>
       <h2>MurrMan's Projects</h2>
-      <p class="soon">Coming soon!</p>
+      <p>
+        This page is going to focus on my web projects. As of now, one of them is under construction
+        and the other one is more of a personal journal. I'll upload videos of functionality at some point
+        though! Like all things, I'm taking these one step at a time and hope to add more features
+        as I go along. 
+      </p>
+      <div>
+        <h3>Taleshack Productions</h3>
+        <a href="https://taleshackproductions.com" target="_blank">https://taleshackproductions.com</a>
+        <p>Tech:</p>
+        <ul>
+          <li>- NextJS</li>
+          <li>- Supabase (Auth, PostgreSQL DB)</li>
+          <li>- AWS S3</li>
+        </ul>
+        <p>
+          Portfolio site for Taleshack Productions, my film company! 
+          <a href="https://find-and-update.company-information.service.gov.uk/officers/OKIx-kNfHLHW_Ipbz0cTdFJavNA/appointments" target="_blank">Look!</a> 
+          I'm a director of this thing! We have big plans for shorts, TV and feature length films in the future.
+          I made this site so me and my two friends Ethan and Jonny can upload our work you you all to see!
+          It features authenticated uploads to an S3 bucket with Supabase metadata for CRUD operations on the 
+          uploaded film and screenshot files.
+        </p>
+      </div>
+      <div>
+        <h3>Fillums</h3>
+        <a href="https://fillums.vercel.app" target="_blank">https://fillums.vercel.app</a>
+        <p>Tech:</p>
+        <ul>
+          <li>- RedwoodJS</li>
+          <li>- Tailwind CSS</li>
+          <li>- Auth (for one user - me)</li>
+          <li>- PostgreSQL with a GraphQL API</li>
+        </ul>
+        <p>
+          You're going to click that and be hit with a login page. I am the only user and I pulled the
+          sign-up ladder out of the app. What I <em>will</em> do, though, is add some screenshots
+          and videos here in due time. It's a film journal! I just record the films I watch because
+          I'm a film guy. I intend to add more features like pagination, charts and data insights
+          in due time.
+        </p>
+      </div>
     </section>
   </main>
 </body>
