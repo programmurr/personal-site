@@ -2,6 +2,10 @@ div > p {
   margin-top: 1rem;
 }
 
+p {
+  text-wrap: balance;
+}
+
 p:last-of-type {
   margin-bottom: 0;
 }
@@ -10,7 +14,8 @@ section {
   padding-bottom: 1rem;
 }
 
-img {
+img, video {
   margin: 1rem 0;
   max-width: 1000px;
+  width: 100%;
 }
