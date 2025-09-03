@@ -37,43 +37,6 @@ nav {
 }
 
 section {
-  view-transition-name: main-content;
-}
-
-@view-transition {
-    navigation: auto;
-}
-
-@keyframes move-out {
-  from {
-    transform: translateX(0%);
-  }
-
-  to {
-    transform: translateX(-100%);
-  }
-}
-
-@keyframes move-in {
-  from {
-    transform: translateX(100%);
-  }
-
-  to {
-    transform: translateX(0%);
-  }
-}
-
-
-::view-transition-old(main-content) {
-  animation: 0.1s ease-in both move-out;
-}
-
-::view-transition-new(main-content) {
-  animation: 0.1s ease-in both move-in;
-}
-
-section {
   display: flex;
   flex-direction: column;
   gap: 1rem;

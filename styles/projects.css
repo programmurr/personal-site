@@ -9,3 +9,8 @@ p:last-of-type {
 section {
   padding-bottom: 1rem;
 }
+
+img {
+  margin: 1rem 0;
+  max-width: 1000px;
+}
