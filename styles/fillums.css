@@ -2,10 +2,6 @@ div > p {
   margin-top: 1rem;
 }
 
-p {
-  text-wrap: balance;
-}
-
 p:last-of-type {
   margin-bottom: 0;
 }
