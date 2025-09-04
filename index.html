@@ -1,69 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/reset.css">
-  <link rel="stylesheet" href="styles/index.css">
-  <link rel="stylesheet" href="styles/home.css">
-  <script type="speculationrules">
-    {
-      "prerender": [
-        {
-          "where": { "selector_matches": ".nav-link" },
-          "eagerness": "immediate"
-        }
-      ]
-    }
-  </script>
-  <title>MurrMan</title>
-</head>
-<body>
-  <main>
-    <header>
-      <h1>MurrMan</h1>
-    </header>
-    <nav>
-      <ul class="nav-list">
-        <li><a class="nav-link" href="index.html">Home</a></li>
-        <li><a class="nav-link" href="pages/projects.html">Projects</a></li>
-        <li><a class="nav-link" href="pages/fillums.html">Fillums</a></li>
-        <li><a class="nav-link" href="pages/contact.html">Contact</a></li>
-        <li><a class="nav-link" href="pages/danny.html">Danny</a></li>
-      </ul>
-    </nav>
-    <section>
-      <h2>Murrman's Home</h2>
-      <p>Hello and welcome! I'm Conor Murray. I am a:</p>
-      <ul>
-        <li>- Web Developer (professionally front-end, hobbyist fullstack)</li>
-        <li>- Film Maker</li>
-        <li>- Photographer</li>
-        <li>- Cat Dad</li>
-      </ul>
-      <p>
-        I've just launched this site so there's a lot I want to add over time.
-        For now I can link a few <a href="pages/fillums.html">films</a> I'm working on with talented folks and 
-        dear friends (not mutually exclusive), some <a href="pages/projects.html">hobby sites</a> I work on when I can,
-        photography (eventually, when I get back to it, hopefully some astro stuff),
-        ways to <a href="pages/contact.html">talk to me</a> and <a href="pages/danny.html">HUNDREDS OF PHOTOS OF MY CAT</a>.
-      </p>
-      <p>
-        I always liked discovering some random person's website that they'd made for
-        themselves. There's something very wholesome about it; people just putting
-        their little world out there.  This is my go at it. 
-      </p>
-      <p>
-        I want this to be a kind of playground. Already I'm using the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Speculation_Rules_API" target="_blank">Speculation Rules API</a> to use and abuse your bandwidth
-        plus the <a href="https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API" target="_blank">View Transitions API</a> to trick you into thinking this is an SPA (if you're on Chrome or Edge). If or when
-        I use Javascript it's going to be import maps all the way! Nothing against
-        bundlers or the current eco-system here. Find plenty of that if you search for it.
-        I just want this site to help me stretch my legs in other areas a bit. 
-      </p>
-    </section>
-  </main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <script type="speculationrules">
+      {
+        "prerender": [
+          {
+            "where": { "selector_matches": ".nav-link" },
+            "eagerness": "immediate"
+          }
+        ]
+      }
+    </script>
+    <title>MurrMan</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>MurrMan</h1>
+      </header>
+      <nav>
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="pages/projects.html">Projects</a></li>
+          <li><a class="nav-link" href="pages/fillums.html">Fillums</a></li>
+          <li><a class="nav-link" href="pages/contact.html">Contact</a></li>
+          <li><a class="nav-link" href="pages/danny.html">Danny</a></li>
+        </ul>
+      </nav>
+      <section>
+        <h2>Murrman's Home</h2>
+        <p>Hello and welcome! I'm Conor Murray. I am a:</p>
+        <ul>
+          <li>- Fullstack Software Engineer</li>
+          <li>- Film Maker</li>
+          <li>- Photographer</li>
+          <li>- Cat Dad</li>
+        </ul>
+        <p>
+          I've just launched this site so there's a lot I want to add over time.
+          For now I can link a few <a href="pages/fillums.html">films</a> I'm
+          working on with talented folks and dear friends (not mutually
+          exclusive), some <a href="pages/projects.html">hobby sites</a> I work
+          on when I can, photography (eventually, when I get back to it,
+          hopefully some astro stuff), ways to
+          <a href="pages/contact.html">talk to me</a> and
+          <a href="pages/danny.html">HUNDREDS OF PHOTOS OF MY CAT</a>.
+        </p>
+        <p>
+          I always liked discovering some random person's website that they'd
+          made for themselves. There's something very wholesome about it; people
+          just putting their little world out there. This is my go at it.
+        </p>
+        <p>
+          I want this to be a kind of playground. Already I'm using the
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/API/Speculation_Rules_API"
+            target="_blank"
+            >Speculation Rules API</a
+          >
+          to use and abuse your bandwidth. If or when I use Javascript it's
+          going to be import maps all the way! Nothing against bundlers or the
+          current eco-system here. Find plenty of that if you search for it. I
+          just want this site to help me stretch my legs in other areas a bit.
+        </p>
+      </section>
+    </main>
+  </body>
 </html>
+
+<!-- TODO -->
+<!-- Optimize images -->
