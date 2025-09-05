@@ -1,9 +1,13 @@
+main {
+  width: 100%;
+}
+
 div > p {
   margin-top: 1rem;
 }
 
 p {
-  text-wrap: balance;
+  /* text-wrap: balance; */
 }
 
 p:last-of-type {

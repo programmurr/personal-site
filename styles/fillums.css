@@ -15,3 +15,7 @@ img, video {
   max-width: 1000px;
   width: 100%;
 }
+
+.film {
+  margin-top: 2rem;
+}

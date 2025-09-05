@@ -1,3 +1,18 @@
-p {
-  text-wrap: balance;
+ul {
+  margin: 1rem 0;;
+}
+
+.cat-pic {
+  p {
+    margin: 0 0 1rem 0;
+  }
+}
+
+img {
+  max-width: 450px;
+  margin: 2rem auto 1rem auto;
+}
+
+.caption {
+  text-align: center;
 }
